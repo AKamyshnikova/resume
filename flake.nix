@@ -18,15 +18,7 @@
     in rec {
       defaultApp = apps.page;
       apps = makeScripts rec {
-        worktree = "[ -d .html ] || ${git} worktree add .html gh-pages";
-        page = "${worktree}; ${pkgs.docutils}/bin/rst2html.py resume.rst index.html";
-        commit-page = ''
-          ${page}
-	      cd .html
-          if [ "$$(${git} status -s)" ]; then
-              ${git} commit -am "Update to master branch"
-          fi
-        '';
+        page = "${pkgs.docutils}/bin/rst2html.py resume.rst index.html";
       };
     });
 }
