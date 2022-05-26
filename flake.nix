@@ -19,7 +19,7 @@
       defaultApp = apps.page;
       apps = makeScripts rec {
         worktree = "[ -d .html ] || ${git} worktree add .html gh-pages";
-        page = "${worktree}; ${pkgs.docutils}/bin/rst2html.py resume.rst .html/index.html";
+        page = "${worktree}; ${pkgs.docutils}/bin/rst2html.py resume.rst index.html";
         commit-page = ''
           ${page}
 	      cd .html

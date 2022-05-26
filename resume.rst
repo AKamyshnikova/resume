@@ -17,11 +17,8 @@ Common Summary
 I am a Senior Software Engineer with 9+ years of professional background.
 I worked with and contributed to many open source projects like OpenStack
 (mostly Neutron and Octavia projects), Kubernetes and Tungsten Fabric.
-I made many contributions to OpenStack, mainly in Python.
 I was in the core review team for Neutron and I am still in the Octavia core
 review team.
-For the last 2 years I am mostly involved in development of Kubernetes
-operators based on operator-sdk in Go.
 Aside from working on these projects I was also involved in their integration
 with Salt and Kubernetes based cloud platforms.
 
@@ -60,7 +57,7 @@ Work experience
 - Development of operator-sdk based operators in Go.
 - Automation of backup-restore DB backends procedure for Tungsten Fabric
   operator in MOS.
-- Contribution to open source projects like https://k8ssandra.io
+- Contribution to open source projects like https://orange-opensource.github.io/casskop/
 
 **Senior Software Engineer, Mirantis IT, Saratov**, *Dec 2017 - Sep 2020*
 
