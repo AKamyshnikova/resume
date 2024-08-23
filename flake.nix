@@ -18,7 +18,7 @@
     in rec {
       defaultApp = apps.page;
       apps = makeScripts rec {
-        page = "${pkgs.docutils}/bin/rst2html.py resume.rst index.html";
+        page = "${pkgs.docutils}/bin/rst2html resume.rst index.html";
       };
     });
 }
