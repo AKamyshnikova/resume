@@ -55,6 +55,7 @@ Work experience
 - Continuous improvements for Tungsten Fabric Kubernetes operator for
   Mirantis OpenStack Kubernetes platform.
 - Upstream OpenSDN activity https://github.com/OpenSDN-io/community/issues/24
+- Technical designs
 
 **Senior Software Engineer, Mirantis IT, Netherlands** , *Nov 2022 - Dec 2023*
 
